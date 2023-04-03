@@ -48,4 +48,24 @@ Having static texts stored like this will allow you to *map()* them instead of w
 
 Additionally, this will help non code savvy people to easily edit their webpage/application by editing directly in "index.js" instead of facing code.
 
-time: 6:48:07
+
+# What I learned from the Navbar component
+
+Baby steps into learning tailwind CSS. It looks like you apply CSS rules through class names, rather than CSS blocks. That explains *why* none of the components need an .css file. 
+
+It definitely seems faster but its a bit confusing due to the syntax. It will take time to get used to use the "className" attribute to apply styles.
+
+    <ul className="list-none flex flex-col justify-end items-center flex-1">
+    {navLinks.map((nav, index) => (
+    <li
+    key={nav.id}
+    className={`font-poppins font-normal cursor-pointer text-[16px] ${
+      index === navLinks.length - 1 ? "mr-0" : "mb-4"
+    } text-white mr-10`}
+    >
+    <a href={`#${nav.id}`}>{nav.title}</a>
+    </li>
+    ))}
+    </ul>
+
+**Time stamp: 7:16:00**
