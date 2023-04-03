@@ -101,3 +101,9 @@ The contents of styles.flexCenter are:
 The number values in "my-10" refer to a percentage in em equivalent to 25% of the value. So "my-10" will apply 2.5em margin top/bottom.
 
 **Time stamp: 7:39:00**
+
+# What I learned from the Stats section
+
+*Tailwind drills* 
+
+**Time stamp: 7:44:00**
