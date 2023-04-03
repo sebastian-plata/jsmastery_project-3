@@ -48,8 +48,7 @@ Having static texts stored like this will allow you to *map()* them instead of w
 
 Additionally, this will help non code savvy people to easily edit their webpage/application by editing directly in "index.js" instead of facing code.
 
-
-# What I learned from the Navbar component
+# What I learned from the Navbar section
 
 Baby steps into learning tailwind CSS. It looks like you apply CSS rules through class names, rather than CSS blocks. That explains *why* none of the components need an .css file. 
 
@@ -69,3 +68,36 @@ It definitely seems faster but its a bit confusing due to the syntax. It will ta
     </ul>
 
 **Time stamp: 7:16:00**
+
+# What I learned from the Hero section
+
+Correctly distributing blocks for content into div (or other HTML element) is very important to stay consitent with the layout design. Having a clear understanding on *what goes where?* and *who is inside what?* allows you to assign styles through classes (Tailwind CSS) more easily.
+
+You can look up any class name here: https://tailwindcss.com/docs 
+
+To see what it does, though it is very self-explanatory.
+
+Also, you can input className value to be dynamic to insert pre-set style rules like they come from an object. like this:
+
+     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}></div>
+
+Template strings allow you to combine strings and dynamic bits of codes to assign style rules to an element.
+
+The above example is applying:
+
+    flex : 1;
+    display: flex;
+    for medium devices margin-y: 0;
+    generally,
+    margin-y: 10;
+    position: relative;
+
+The contents of styles.flexCenter are:  
+    
+    display: flex;
+    justify-contents: center; 
+    align-items: center;
+
+The number values in "my-10" refer to a percentage in em equivalent to 25% of the value. So "my-10" will apply 2.5em margin top/bottom.
+
+**Time stamp: 7:39:00**
