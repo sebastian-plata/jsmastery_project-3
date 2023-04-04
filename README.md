@@ -107,3 +107,9 @@ The number values in "my-10" refer to a percentage in em equivalent to 25% of th
 *Tailwind drills* 
 
 **Time stamp: 7:44:00**
+
+# What I learned from the Business section
+
+This section really highlights how important it is to plan ahead and structure the contents of the website *before* coding. Pre-creating styles and having them stored in a "index.js" file which will be imported when needed in any component allows us to write cleaner code, particularly while working with Tailwind.  
+
+**Time stamp: 7:58:00**
