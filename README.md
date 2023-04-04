@@ -144,3 +144,19 @@ The reason that I put column-reverse in particular is to have the text be displa
 
 **Time stamp: 8:07:00**
 **Time stamp: 8:11:00**
+
+# What I learned from the Testimonials section
+
+**Inserting comments in JSX**
+
+Until now I've found myself struggling to figure out a way to comment in the exact line of code I want to. But no more. To insert a comment in JSX you use the following syntax:
+
+    {/*YOUR COMMENT HERE*/}
+
+And that's it!
+
+**Animations keep .css files relevant**
+
+Though you can pretty much manage everything by applying classes using Tailwind. For now, I believe managing *pseudo classes* behaviour and/or animations is better done by using an "index.css" file inside the "src" directory. This is because I don't know how to edit these using Tailwind or if it's even possible (I think it is, but haven't looked it up).     
+
+**Time stamp: 8:24:00**
