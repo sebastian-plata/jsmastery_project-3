@@ -168,3 +168,42 @@ Though you can pretty much manage everything by applying classes using Tailwind.
 Browsing "Tailwind docs" theres a complete documentation on how to implement effects simply by adding classes. Like I said in the previous section: creating and applying more complex effects and animations might be better done in a separate CSS file. However, particularly *hover*, effects are made super simple by Tailwind CSS.
 
 **Time stamp: 8:27:00**
+
+# What I learned from the Footer section
+
+Simple yet effective footer design which ties it all up by usign *map()* to display almost every element in it. This design and code taught me about multiple "layers of mapping". What I mean is that you can map an ARRAY of objects in which one of the properties has an ARRAY as a value, which you can further map:
+
+    const footerLinks = [
+    {
+        title: "Useful Links",
+        links: [
+        {
+          name: "Content",
+          link: "https://example.com",
+        },
+        {
+          name: "How it Works",
+          link: "https://example.com",
+        },
+        {
+          name: "Create",
+          link: "https://example.com",
+        },
+        {
+          name: "Explore",
+          link: "https://example.com",
+        },
+        {
+          name: "Terms & Services",
+          link: "https://example.com",
+        },
+        ],}... 
+    ]
+
+See 'src/Footer.jsx' for map example. 
+
+This feels both convenient and powerful, and I believe it's what makes using React good. Not having to repeat "chores" like writing down, manually, the same blocks of code.
+
+*efficient!*
+
+**Time stamp: 8:44:00**
