@@ -114,7 +114,7 @@ This section really highlighted how important it is to plan ahead and structure 
 
 **Time stamp: 7:58:00**
 
-# What I learned from the Billing section
+# What I learned from the Billing & CardDeal section
 
 **Tailwind style rules that manage RWD**
 
@@ -143,3 +143,4 @@ What this does is that the element, in this case a 'div', will display in row if
 The reason that I put column-reverse in particular is to have the text be displayed on top of the images, just for design purposes.
 
 **Time stamp: 8:07:00**
+**Time stamp: 8:11:00**
