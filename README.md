@@ -160,3 +160,11 @@ And that's it!
 Though you can pretty much manage everything by applying classes using Tailwind. For now, I believe managing *pseudo classes* behaviour and/or animations is better done by using an "index.css" file inside the "src" directory. This is because I don't know how to edit these using Tailwind or if it's even possible (I think it is, but haven't looked it up).     
 
 **Time stamp: 8:24:00**
+
+# What I learned from the Clients section
+
+**Applying effects with Tailwind is rather easy**
+
+Browsing "Tailwind docs" theres a complete documentation on how to implement effects simply by adding classes. Like I said in the previous section: creating and applying more complex effects and animations might be better done in a separate CSS file. However, particularly *hover*, effects are made super simple by Tailwind CSS.
+
+**Time stamp: 8:27:00**
